@@ -1,0 +1,34 @@
+{
+    "name": "src",
+    "version": "1.0.0",
+    "description": "1. Mesto 2. Проект студента Яндекс Практикума Вадима Колесникова. Задача проекта, научиться создавать логику сайта с помощью JavaScript и верстать адаптивный макет для разных разрешений экрана, чтобы он отображался без искажений на всех разрешениях 3. Технологии которые используются в проекте следующие: flexbox, разметка и верстка форм, анимация при наведении на ссылки, адаптивная верстка макета с использованием медиазапросов,  открытие и закрытие всплывающих окон, Grid Layauot, валидация форм посредством JavaScript, добавление и удаление DOM элементов, закрытие модальных окон с испльзованием клавиатуры. JavaScript код разделен на несколько файлов и имопртирован в основной файл для применения парадигмы ООП, в работе использовался метод this. 4. https://sonik2155.github.io/Mesto/ Ссылка на работу",
+    "main": "index.js",
+    "scripts": {
+        "build": "rimraf dist && webpack",
+        "dev": "webpack-dev-server --open --watch",
+        "deploy": "npm run build && gh-pages -d dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "autoprefixer": "^9.8.6",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^4.3.0",
+        "cssnano": "^4.1.10",
+        "file-loader": "^6.1.0",
+        "gh-pages": "^3.1.0",
+        "html-loader": "^1.3.0",
+        "html-webpack-plugin": "^4.4.1",
+        "mini-css-extract-plugin": "^0.11.1",
+        "postcss-loader": "^4.0.1",
+        "rimraf": "^3.0.2",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "core-js": "^3.6.5"
+    }
+}
